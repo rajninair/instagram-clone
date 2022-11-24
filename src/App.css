@@ -1,13 +1,15 @@
 .app {
   background-color: #fafafa;
-  background-color: #92e896;
-  height: 100vh;
 }
 
 .app__header {
   object-fit: contain;
   background-color: white;
-  background-color: pink;
   padding: 2rem;
   border-bottom: 0.1rem solid lightgray;
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
 }
